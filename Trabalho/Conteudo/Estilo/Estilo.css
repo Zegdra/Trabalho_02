@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(141, 161, 179);
+}
+h1 {
+    padding: 5px;
+    font-size: 40px;
+    background-color: rgb(133, 145, 121);
+    display: inline-block;
+}
+
+.conteudo_principal {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu {
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 47, 47);
+    width: 180px;
+    height: 200px;
+    font-size: 30px;
+      
+}
+.menu ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+     
+}
+.menu a:hover {
+    background-color: rgb(69, 73, 73);
+    margin: 5px;
+}
+main {
+    background-color: rgb(49, 47, 47);
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    width: 180px;
+    color: white;
+}
+#link01:hover {
+    background-color: rgb(201, 197, 197);
+    color: black;
+}
